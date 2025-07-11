@@ -1,0 +1,51 @@
+MANUAL DE FUNCIONAMIENTO DE LA APP
+
+Autores:
+- Andres Alejandro Bejar Yabar - 20230352
+- Jean Carlo De Jesus Rado Delgado - 20235056
+- Walter Sebastian Melendez Julca - 20231805
+
+-------------------------------------------------
+
+1. Iniciar sesión:
+- Abrir la aplicación
+- Ingresar usuario: admin
+- Ingresar contraseña: 12345
+- Presionar el botón “Ingresar”
+
+2. Registrar expediente:
+- Completar los campos del formulario:
+  - Nombres
+  - DNI
+  - Teléfono
+  - Correo
+  - Asunto
+  - Prioridad (Alta/Baja)
+  - Documento
+- Presionar el botón “Registrar”
+- Presionar el botón “Ver Lista” para ver los pendientes
+
+3. Simular con datos de prueba:
+- Presionar el botón “Llenar”
+- Se agregan automáticamente 5 expedientes ya definidos a la lista de pendientes
+
+4. Avanzar expediente:
+- Presionar el botón “Ver Lista de Pendientes”
+- Seleccionar un expediente
+- Presionar el botón “Mover” para pasar a la siguiente etapa
+- Repetir el paso anterior hasta llegar a Junta Universitaria
+
+5. Terminar expediente:
+- Una vez en Junta Universitaria
+- Presionar el botón “Terminar”
+- Aparecerá el mensaje: “Trámite finalizado para [Nombre]”
+
+6. Ver terminados:
+- Presionar el botón “Ver Lista Terminados”
+- Para filtrar por prioridad, presionar el botón correspondiente: “Alta” o “Baja”
+- Para buscar un expediente, ingresar DNI y presionar “Buscar”
+
+-------------------------------------------------
+
+Proyecto: Estructura de Datos - Gestión de Trámites
+
