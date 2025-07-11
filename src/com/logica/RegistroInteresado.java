@@ -29,6 +29,7 @@ public class RegistroInteresado {
         //Crea un objeto ineresado con los datos recibidos
         Interesado interesado = new Interesado(nombres, dni, telefono, email, esUlima);
         //Crea un nuevo expediente asociado al interesado
+        
         Expediente expediente = new Expediente(esAlta, asunto, interesado, documento);
 
         // Enviar a Mesa de Partes
